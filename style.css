@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    position: relative;
+    background-color: aliceblue;
+}
+
+#header-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    top:0;
+    width: 100%;
+    height: 50px;
+}
+
+ul  {
+    list-style: none;
+    margin-left: 5px;
+}
+
+ul >li >a{ 
+ text-decoration: none;
+}
+
+#top-right-nav >ul{
+ display: flex;
+}
+
+#top-right-nav >ul >li{
+    margin-left: 10px;
+}
+
+#top-left-nav >ul{
+    display:flex;
+}
+
+#top-left-nav >ul >li{
+    margin-right: 10px;
+}
+
+.material-icons{
+    font-family: 'Material Icons';
+    font-style: normal;
+}
+
+
+
+.img-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#form-section{
+    display: flex;
+    justify-content: center;
+}
+
+#search-bar{
+  margin-bottom: 30px;  
+}
+
+#lucky-btn{
+    margin-left: 10px;
+}
+
+#search-bar{
+    width: 700px;
+    border: 1px solid;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+}
+
+p >a{
+    text-decoration: none;
+}
+
+#footer-nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+#left-footer-list{
+    display: flex;
+}
+
+#left-footer-list >li{
+    margin-right: 10px;
+}
+
+#right-footer-list{
+    display: flex;
+}
+
+#right-footer-list >li{
+    margin-left: 10px;
+}
+
+ /*@media only screen and (min-width:650px){ 
+    #header-nav-bar{
+        display: flex;
+        justify-content: center;
+        top:0;
+        width: 100%;
+    }
+
+    #footer-nav-bar{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background-color: lightgray;
+        padding: 10px;
+    }
+
+    #left-footer-list{
+        display: flex;
+        justify-content: center;
+    }
+
+    #right-footer-list{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-div{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+    
+    }
+} */
